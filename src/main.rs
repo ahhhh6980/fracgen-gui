@@ -1,6 +1,6 @@
-#![forbid(unsafe_code)]
-#![cfg_attr(not(debug_assertions), deny(warnings))] // Forbid warnings in release builds
-#![warn(clippy::all, rust_2018_idioms)]
+#![feature(specialization)]
+#![feature(adt_const_params)]
+#![feature(trivial_bounds)]
 use fracgen_gui::FracgenGui;
 
 // When compiling natively:
